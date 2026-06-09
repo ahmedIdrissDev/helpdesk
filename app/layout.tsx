@@ -33,6 +33,13 @@ export const metadata: Metadata = {
       alt: "Helpdesk TGCC",
     },
   ],
+  
+},
+twitter: {
+  card: "summary_large_image",
+  title: "Helpdesk TGCC",
+  description: "Pour vos demandes informatiques, veuillez utiliser le Helpdesk TGCC.",
+  images: ["/icon/opengraph.png"],
 },
 };
 
