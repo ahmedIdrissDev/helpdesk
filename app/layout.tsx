@@ -22,11 +22,18 @@ export const metadata: Metadata = {
   title: "Helpdesk TGCC",
   description: "Portail de Services Interne TGCC",
   icons:'/icon/logo.svg' ,
-  openGraph:{
-    images:'/icon/opengraph.png',
-    title:'Helpdesk TGCC.',
-    description:'Pour vos demandes informatiques, veuillez utiliser le Helpdesk TGCC.'
-  }
+ openGraph: {
+  title: "Helpdesk TGCC",
+  description: "Pour vos demandes informatiques, veuillez utiliser le Helpdesk TGCC.",
+  images: [
+    {
+      url: "/icon/opengraph.png",
+      width: 1200,
+      height: 630,
+      alt: "Helpdesk TGCC",
+    },
+  ],
+},
 };
 
 export default function RootLayout({
